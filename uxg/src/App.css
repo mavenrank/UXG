@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Geist;
+    src: url(./assets/Geist[wght].ttf);
+}
+
+:root {
+    --rich-black: #01161eff;
+    --midnight-green: #124559ff;
+    --air-force-blue: #598392ff;
+    --ash-gray: #aec3b0ff;
+    --beige: #eff6e0ff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    list-style-type: circle;
+}
+
+body {
+    font-family: "Geist";
+    background-color: var(--rich-black);
+    color: beige;
+
+}
+
+.mainframe {
+    padding-left: 15%;
+    padding-right: 10%;
+    padding-top: 4%;
+    height: 100%;
+    width: 100%;
+}
+
+p{
+    padding-top: 10px;
+}
+
+.navbar{
+    background-color: var(--rich-black);
+    background-color: var(--ash-gray);
+    color: var(--ash-gray);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 3.5em;
+}
+
+.button{
+
+}
