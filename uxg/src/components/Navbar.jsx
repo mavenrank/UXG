@@ -4,19 +4,15 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className="brand">
-                UXG
+                <p>UXG</p>
             </div>
-            <div className="quick-access">
-                <button>Module 1</button>
-                <button>Module 1</button>
-                <button>Module 1</button>
-                <button>Module 1</button>
-                <button>Module 1</button>
-                <button>Module 1</button>
+            <div className="navbar-quick-access">
+                <div>
+                    <button className="bn4">Foundations of UX</button>
+                    
+                </div>
             </div>
-            <div className="credits">
-                Github
-            </div>
+            <div className="credits">Github</div>
         </div>
     );
 }

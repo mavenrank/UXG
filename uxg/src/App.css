@@ -2,6 +2,11 @@
     font-family: Geist;
     src: url(./assets/Geist[wght].ttf);
 }
+@font-face {
+    font-family: WagonBold;
+    src: url(./assets/Wagon-Bold.otf);
+}
+
 
 :root {
     --rich-black: #01161eff;
@@ -26,8 +31,8 @@ body {
 
 .mainframe {
     padding-left: 15%;
-    padding-right: 10%;
-    padding-top: 4%;
+    padding-right: 15%;
+    padding-top: 2%;
     height: 100%;
     width: 100%;
 }
@@ -36,17 +41,61 @@ p{
     padding-top: 10px;
 }
 
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .navbar{
-    background-color: var(--rich-black);
-    background-color: var(--ash-gray);
-    color: var(--ash-gray);
+    background-color: var(--midnight-green);
+    color: var(--rich-black);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     height: 3.5em;
+    padding: 10px;
+    
 }
 
-.button{
+.brand{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: var(--beige);
+    font-family: "WagonBold";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+section{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-quick-access{
 
 }
+
+.navbar-quick-access-buttons{
+
+}
+
+.bn4 {
+    background-color: var(--midnight-green);
+    border: none;
+    color: var(--beige);
+    padding: 0.7em 1.7em;
+    text-align: center;
+    font-size: 1.3em;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .bn4:hover {
+    opacity: 1;
+    background-color: var(--air-force-blue);
+  }
