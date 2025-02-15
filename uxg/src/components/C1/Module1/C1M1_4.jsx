@@ -50,6 +50,7 @@ function C1M1_4() {
                         </li>
                     </ul>
                 </section>
+                <hr></hr>
             </div>
         </div>
     );
